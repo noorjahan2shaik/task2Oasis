@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero
+{
+    position:relative;
+    width: 100%; 
+    background: white;
+    padding-top: 0px;
+}
+nav{
+    display:flex;
+    width:84%;
+    margin:auto;
+    padding:20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:red;  
+}
+.detel{
+    margin-left:8%;
+    margin-top:15%;
+}
+.detel h1{
+    font-size:50px;
+    color:#212121;
+    margin-bottom:20px;
+}
+span{
+    color:blue;
+    line-height:22px;
+}
+.detel a{
+    background: #212121;
+    padding:10px 18px;
+    text-decoration:none;
+    font-weight:bold;
+    color:white;
+    display:inline-block;
+    margin:30px 0;
+    border-radius: 5px;
+}
+.images{
+    width:45%;
+    height:90%;
+    position:absolute;
+    bottom:0;
+    right:180px;
+}
+.images img{
+   height:100%;
+   position:absolute;
+   left:50%;
+   bottom:0;
+   transform: translate(-50%);
+   transition:bottom 1s,left 1s;
+}
+.images:hover.shape{
+  bottom:40px;
+}
+.images:hover.girl{
+   left:45%;
+  }
+
+  .bg-container{
+    background: azure;
+    margin-left:8%;
+    margin-top:15%;
+}
+  .skill-sec{
+    font-weight:bold;
+    font-family: "Roboto";
+    font-size:50px;
+    color:#212121;
+    margin-left:8%;
+    padding-top: 10%;
+    margin-bottom:10px;
+}
+
+.skill-section{
+    padding:0px;
+}
+.image-sec{
+    padding:5px;
+    border-radius:30px;
+    height:120px;
+    width:150px;
+
+}
+.my-image{
+    padding:5px;
+    border-radius:70px;
+    height:290px;
+    width:320px;
+}
+.contact-info{
+    color:gold;
+    font-size: 35px;
+    font-weight:bold;
+    font-family: "Roboto";
+}
+.skill-sec-contact{
+    font-weight:bold;
+    font-family: "Roboto";
+    font-size:50px;
+    color:#212121;
+    margin-left:8%;
+    padding-top: 10%;
+}
+
+.projects{
+    font-family: "Roboto";
+    font-size:30px;
+    color:blue;
+    margin-left:8%;
+    
+}
+.contact{
+    color:chocolate;
+    margin-left:8%;
+    
+}
